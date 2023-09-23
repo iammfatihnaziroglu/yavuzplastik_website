@@ -1,0 +1,291 @@
+/* HERO */
+.hero__wrapper {
+  width: 100%;
+  height: 100vh;
+  z-index: 100 !important;
+  background-image: url("https://www.yavuzplastikpet.com/static/media/hero-bg.1d4d44b84889c25cc0c9.jpg");
+  background-size: cover;
+}
+
+.hero__inner__wrapper {
+  display: flex;
+  padding-left: 0%;
+  padding-top: 1rem;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 100vh;
+}
+
+.hero__inner__wrapper > div {
+  margin-bottom: 15rem;
+  margin-left: 77rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__inner__wrapper > div > h3 {
+  font-size: 4rem;
+  font-weight: 1000;
+  letter-spacing: 1.0rem;
+  margin-top: 5rem;
+  margin-right: 0rem;
+
+  color: rgba(255, 255, 255, 0.712);
+}
+.hero__inner__wrapper > div > h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  margin-top: 0rem;
+  padding-top: 3rem;
+  margin-bottom: 0rem;
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.685);
+  background: linear-gradient(currentColor, currentColor) right bottom / 0
+    0.15rem no-repeat;
+  transition: 0.7s background-size;
+}
+
+.hero__inner__wrapper > div > h5:hover {
+  background-size: 100% 0.15rem;
+  cursor: pointer;
+}
+
+.hero__inner__wrapper > div > div {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1rem;
+  color: rgba(255, 255, 255, 0.596);
+  font-family:'Times New Roman', Times, serif ;
+}
+
+@media (max-width: 768px) {
+  .hero__wrapper {
+    background-size: cover;
+    background-position-x: -9rem;
+  }
+  .hero__inner__wrapper > div {
+    align-items: flex-start;
+    margin: 0rem;
+    margin-top: 7rem;
+    margin-left: 3rem;
+  }
+  .hero__inner__wrapper > div > h3 {
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+  }
+  .hero__inner__wrapper > div > div {
+    font-size: 1.85rem;
+    letter-spacing: 0.3rem;
+  }
+  .hero__inner__wrapper > div > h5 {
+    letter-spacing: 0.3rem;
+    font-size: 2.1rem;
+  }
+}
+
+/* BIO */
+
+.bio_info_wrapper {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.bio_info_wrapper > div {
+  text-align: left;
+}
+
+.bio_info_wrapper > div > h2 {
+  letter-spacing: 0.7rem;
+  font-size: 2.1rem;
+}
+.bio_info_wrapper > div > p {
+  letter-spacing: 0.1rem;
+}
+
+.bio_info_wrapper > div > div > p {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.bio_bottom_text {
+  border-top: 1px solid black;
+  padding-top: 0.7rem;
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600 !important;
+  letter-spacing: 0.15rem !important;
+}
+
+.bio_image {
+  width: 50rem !important;
+  height: 35rem !important;
+  margin-left: 3.5rem;
+  border-radius: 0.3rem;
+  margin-top: 22.41px;
+}
+
+@media (max-width: 768px) {
+  .bio_info_wrapper {
+    margin-top: 0.3rem;
+    flex-direction: column;
+    margin-left: 0.3rem;
+  }
+  .bio_info_wrapper > div > h2 {
+    margin: 0rem;
+  }
+  .bio_image {
+    display: none !important;
+  }
+}
+/* WHAT DO WE DO */
+
+.what_do_we_do_container {
+  display: flex;
+}
+.what_do_we_do_container > img {
+  width: 60%;
+  height: 100vh;
+}
+
+.what_do_we_do_text_wrapper {
+  margin: 0 2rem;
+  padding-top: 2rem;
+}
+
+.what_do_we_do_text_wrapper > h2 {
+  letter-spacing: 0.1rem;
+}
+
+.what_do_we_do_text_wrapper > p {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.what_do_we_do_icons_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0rem;
+  margin-top: 10rem;
+
+  padding: 3rem;
+}
+
+.what_do_we_do_icons_margin_0 {
+  margin: 0rem;
+}
+
+.what_do_we_do_icons_margin_letter_spacing {
+  letter-spacing: 0.1rem;
+}
+
+/* What do we do contact icons */
+.what_do_we_do_contact_icon_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13rem;
+}
+.what_do_we_do_contact_icon {
+  font-size: 5rem;
+}
+
+.what_do_we_do_contact_icon:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.what_do_we_do_contact_icon:active {
+  transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  .what_do_we_do_container {
+    flex-direction: column;
+  }
+  .what_do_we_do_container > img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .what_do_we_do_text_wrapper {
+    margin: 0 1rem;
+    padding-top: 0rem;
+  }
+
+  .what_do_we_do_text_wrapper > p {
+    letter-spacing: 0.0001rem;
+  }
+
+  .what_do_we_do_icons_wrapper {
+    margin: 0;
+    padding: 0rem 0rem;
+  }
+  .what_do_we_do_icons_margin_letter_spacing {
+    letter-spacing: 0;
+  }
+
+  .what_do_we_do_contact_icons {
+    display: none;
+  }
+
+  .what_do_we_do_contact_icon_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+  }
+  .what_do_we_do_contact_icon {
+    font-size: 3rem;
+  }
+}
+
+/* MAIN CONTACT */
+
+.main_contact_container {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../public/images/main-contact-bg.jpg");
+}
+.main_contact_container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+.main_contact_container > div > h3 {
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_contact_copright {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .main_contact_container {
+    background-position-x: -5rem;
+  }
+  .main_contact_container > div > h3 {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+  }
+  .main_contact_copright {
+    margin: 0 0.1rem;
+  }
+}
