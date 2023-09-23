@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Hamburger from "hamburger-react";
-import logoWhiteOpacity1 from "../../public/images/logo-white-opacity-1.svg";
-import logo from "../../public/images/logo.svg";
-import logoWhite from "../../public/images/logo-white.svg";
-
+import logo from "../../public/images/logoo.svg"; // Sadece kullanmak istediğiniz logo import edildi.
 import Nav from "./Nav";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -38,11 +35,11 @@ const MobileHeader = () => {
           onClick={() => navigate("/main")}
           src={
             isOpen
-              ? logoWhiteOpacity1
-              : pathname === "/contact"
-              ? logoWhite
+              ? logo
+              : pathname === "/contact" 
+              ? logo
               : pathname === "/main"
-              ? logoWhiteOpacity1
+              ? logo
               : logo
           }
           alt="logo"

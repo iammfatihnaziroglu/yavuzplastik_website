@@ -70,20 +70,24 @@
   .hero__inner__wrapper > div {
     align-items: flex-start;
     margin: 0rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 3rem;
   }
   .hero__inner__wrapper > div > h3 {
     font-size: 2.7rem;
     letter-spacing: 0.3rem;
+    padding-right: 2rem;
   }
   .hero__inner__wrapper > div > div {
     font-size: 1.85rem;
     letter-spacing: 0.3rem;
+    padding-left: 2.5rem;
+    
   }
   .hero__inner__wrapper > div > h5 {
     letter-spacing: 0.3rem;
     font-size: 2.1rem;
+    padding-left: 4.5rem;
   }
 }
 
@@ -129,14 +133,33 @@
   margin-top: 22.41px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .bio_info_wrapper {
     margin-top: 0.3rem;
     flex-direction: column;
     margin-left: 0.3rem;
   }
+  .bio_info_wrapper > div > p {
+    font-size: small;
+    padding-left: 1.25rem;
+    letter-spacing: 0.045rem;
+  }
+  .bio_info_wrapper > div > div > p {
+    font-size: small;
+    padding-left: 1.25rem;
+    letter-spacing: 0.045rem;
+}
   .bio_info_wrapper > div > h2 {
     margin: 0rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-left: 1.25rem; 
+  }
+  .bio_info_wrapper > div > h2 > span {
+    margin: 0rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-left: 4rem; 
   }
   .bio_image {
     display: none !important;

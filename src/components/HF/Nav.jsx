@@ -82,7 +82,7 @@ const Nav = () => {
           className="nav_brand"
           style={{ paddingBottom: pathname === "/main" && "3rem" }}
         >
-          Oruç Pen
+          Yavuz Plastik
         </h3>
       )}
     </>

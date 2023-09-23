@@ -18,7 +18,7 @@ const Bio = ({ isAppear }) => {
         <div className="bio_info_wrapper">
           <div>
             <Fade when={isAppear} left duration={1250}>
-              <h2>Yavuz Plastik Kimdir?</h2>
+              <h2>Yavuz Plastik <span>Kimdir?</span></h2>
             </Fade>
             <Fade when={isAppear} left duration={1350}>
               <p>

@@ -32,7 +32,7 @@ const About = () => {
             consequuntur. Perspiciatis ullam dolores reprehenderit aliquam quae
             libero consequatur.
           </p>
-          <h5>Oruç Pen</h5>
+          <h5>Yavuz Plastik</h5>
         </div>
         <h5>
           Arz Teknoloji
