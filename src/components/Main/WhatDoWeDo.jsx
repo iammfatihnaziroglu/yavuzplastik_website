@@ -19,12 +19,7 @@ const WhatDoWeDo = ({ isAppear }) => {
           </Fade>
           <Fade when={isAppear} right duration={1500}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              minima rerum, at exercitationem corporis illo officiis quia culpa
-              excepturi asperiores ea quae sit! Inventore perferendis quas
-              dolore dolorum non eos excepturi nisi repellat, perspiciatis iure
-              ipsa alias sint earum repudiandae at repellendus vero quasi
-              laboriosam est ex! Saepe, possimus eos!
+            Uluslararası arenada faaliyet gösteren bir plastik şişe üreticisi olarak, müşterilerimize yüksek kalitede ürünler sunma misyonuyla hareket ediyoruz. Geniş ürün yelpazemiz ve uzman ekibimiz sayesinde, müşterilerimizin farklı ihtiyaçlarına ve pazar taleplerine hızlı ve esnek bir şekilde cevap verebiliyoruz. Ayrıca, uluslararası pazarlarda güçlü bir varlık oluşturarak, dünya çapında müşteri ağımızı genişletmeye ve kaliteli plastik ambalaj çözümlerimizi daha fazla insanın hizmetine sunmaya devam ediyoruz.
             </p>
           </Fade>
         </div>

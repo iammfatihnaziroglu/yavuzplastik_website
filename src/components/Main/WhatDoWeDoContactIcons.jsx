@@ -16,18 +16,18 @@ const WhatDoWeDoContactIcons = ({ isAppear }) => {
     <div className="what_do_we_do_contact_icon_container">
       <Fade when={isAppear} left duration={1350}>
         <BsInstagram
-          onClick={() => window.open("https://www.instagram.com/")}
+          onClick={() => window.open("https://www.instagram.com/yavuz_plastik32/?hl=en")}
           className="what_do_we_do_contact_icon"
         />
       </Fade>
       <Fade when={isAppear} bottom duration={1350}>
         <BsFacebook
-          onClick={() => window.open("https://www.facebook.com/")}
+          onClick={() => window.open("https://www.facebook.com/Yavuzplastik.22/")}
           className="what_do_we_do_contact_icon"
         />
       </Fade>
       <Fade when={isAppear} right duration={1350}>
-        <ReactWhatsapp number="+905010701210" element={Whatsapp} />
+        <ReactWhatsapp number="+90 544 301 61 69" element={Whatsapp} />
       </Fade>
     </div>
   );

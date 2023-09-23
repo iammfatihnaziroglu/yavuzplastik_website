@@ -12,15 +12,15 @@ import "./Swiper.css";
 import { Pagination, Navigation } from "swiper";
 import BioCard from "../UI/BioCard";
 
-import image1 from "../../public/images/bg-1.jpg";
-import image2 from "../../public/images/bg-2.jpg";
-import image3 from "../../public/images/bg-3.jpg";
-import image4 from "../../public/images/bg-4.jpg";
-import image5 from "../../public/images/bg-5.jpg";
-import image6 from "../../public/images/bg-6.jpg";
-import image7 from "../../public/images/bg-7.jpg";
-import image8 from "../../public/images/bg-8.jpg";
-import image9 from "../../public/images/bg/stripe-bg-1.jpg";
+import image1 from "../../public/images/plastic/1.jpg";
+import image2 from "../../public/images/plastic/2.jpg";
+import image3 from "../../public/images/plastic/3.jpg";
+import image4 from "../../public/images/plastic/4.jpg";
+import image5 from "../../public/images/plastic/5.jpg";
+import image6 from "../../public/images/plastic/6.jpg";
+import image7 from "../../public/images/plastic/2.jpg";
+import image8 from "../../public/images/plastic/5.jpg";
+import image9 from "../../public/images/plastic/4.jpg";
 
 const ResizeSwiper = ({ width }) => {
   return (

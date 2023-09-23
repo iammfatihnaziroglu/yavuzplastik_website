@@ -53,7 +53,7 @@ const Bio = ({ isAppear }) => {
             </div>
             <Fade when={isAppear} left duration={1750}>
               <p className="bio_bottom_text">
-              Yavuz Plastik, geleceğin sürdürülebilir plastik çözümlerini şekillendirirken, çevreye duyarlılığıyla da dikkat çekiyor!
+              Yavuz Plastik olarak, geleceğin sürdürülebilir plastik çözümlerini şekillendirirken, çevreye duyarlılığıyla da dikkat çekiyoruz!
               </p>
             </Fade>
           </div>
