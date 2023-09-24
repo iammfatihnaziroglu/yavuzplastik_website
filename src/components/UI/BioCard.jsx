@@ -20,8 +20,8 @@ const BioCard = ({ imageSrc }) => {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: "0.3rem",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust the opacity here (0 to 1)
+    borderRadius: "15rem",
+    backgroundColor: "rgba(0, 0, 0, 0)", // Adjust the opacity here (0 to 1)
   };
 
   const handleMouseEnter = () => {
