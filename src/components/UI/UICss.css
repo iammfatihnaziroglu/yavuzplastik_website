@@ -6,7 +6,10 @@
 }
 
 .bio_card_image {
-  border-radius: 0.3rem;
+  border-radius: 1.5rem;
+  background-color: transparent; 
+  box-shadow: 0 0 10px 5px rgb(184, 184, 184); 
+  z-index: -1; 
 }
 
 .bio_card_image:hover {
@@ -15,12 +18,12 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .bio_card_container {
     height: 100%;
   }
   .bio_card_image {
-    border-radius: 0;
+    border-radius: 0.5rem;
   }
   .bio_card_image:hover {
     box-shadow: none;

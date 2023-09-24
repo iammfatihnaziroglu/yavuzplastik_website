@@ -3,6 +3,7 @@ import React from "react";
 import { Container } from "@mui/material";
 
 import homeBio from "../../public/images/plastic/6.jpg";
+import homeBiosmall from "../../public/images/plastic/6.jpg";
 import { TiTick } from "react-icons/ti";
 
 import "../CompCss.css";
@@ -59,6 +60,7 @@ const Bio = ({ isAppear }) => {
           </div>
           <Fade when={isAppear} right duration={1550}>
             <img className="bio_image" src={homeBio} alt="bottle6_bio" />
+            <img className="bio_image_sm" src={homeBiosmall} alt="bottle6_bio" />
           </Fade>
         </div>
         {width <= 768 ? null : (
