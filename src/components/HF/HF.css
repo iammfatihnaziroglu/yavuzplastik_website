@@ -104,7 +104,7 @@
     color: rgba(255, 255, 255, 0.9);
   }
 }
-@media (min-width: 820px) {
+@media (min-width: 800px) and (max-width: 1000px) {
   .header_wrapper {
     display: flex;
     align-items: center;
@@ -134,3 +134,15 @@
   
 }
 /* FOOTER */
+
+/*VIDEO*/
+
+.video_yp{
+  background: rgb(0, 0, 0);
+  
+}
+@media screen {
+  .video_yp{
+    background: radial-gradient(circle, #074b8b, black);
+  }
+}

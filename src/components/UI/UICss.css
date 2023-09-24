@@ -20,12 +20,15 @@
 
 @media (max-width: 820px) {
   .bio_card_container {
-    height: 100%;
+    flex-direction: row; /* Mobil cihazlarda yan yana sıralama yapar */
+    flex-wrap: wrap; /* Sığdığı kadar yan yana sıralama yapar */
+    max-width: 70%;
   }
-  .bio_card_image {
-    border-radius: 0.5rem;
+
+  .bio_card_container .bio_card {
+    width: calc(50% - 1rem); /* İki container'ın yarı yarıya genişlikte olması ve aralarında biraz boşluk bırakması için */
   }
-  .bio_card_image:hover {
-    box-shadow: none;
+  .bio_card {
+    
   }
 }

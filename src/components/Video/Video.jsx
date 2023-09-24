@@ -3,7 +3,8 @@ import React from "react";
 const Video = ({ src }) => {
   return (
     <video
-      style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
+      className="video_yp"
+      style={{ width: "100vw", height: "100vh", objectFit: "auto" }}
       autoPlay
       loop
       muted
