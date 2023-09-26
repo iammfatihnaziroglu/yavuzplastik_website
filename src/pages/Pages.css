@@ -217,7 +217,7 @@
   font-size: 3rem;
   letter-spacing: 0.5rem;
   margin: 0rem;
-  padding-top: 9rem;
+  padding-top: 2rem;
   font-weight: 700;
   font-family: "Soundfest", sans-serif !important;
 }
@@ -229,14 +229,16 @@
   .about_container > div {
     margin: 0;
     padding-top: 90px;
-    padding-right: 0.5rem;
+    padding-right: 0rem;
   }
+  
   .about_container > div > h5 {
     font-size: 1rem;
     text-align: center;
   }
   .about_container > div > div > h2 {
     font-size: 1.3rem;
+    padding-left: 6rem;
   }
   .about_container > div > div > p {
     font-size: 1rem;
@@ -387,4 +389,5 @@
 .about_us_all{
   margin-top: 0rem;
   margin-right: 0rem;
+  padding-left: 1rem;
 }
