@@ -23,14 +23,40 @@ const About = () => {
     >
       <div>
         <div>
-          <h2>Hakkımızda</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            natus nesciunt laudantium, beatae accusantium dolorum odio debitis
-            omnis quod deleniti vel aperiam vitae mollitia quos deserunt quam
-            dicta. Ab labore quidem nihil perferendis optio, rem culpa
-            consequuntur. Perspiciatis ullam dolores reprehenderit aliquam quae
-            libero consequatur.
+          <h2 className="about_us_h2">Hakkımızda</h2>
+          <p className="about_us_all">
+          <h3>Biz Kimiz?</h3>
+
+<p className="about_us_p">Yavuz Plastik, pet şişe üretiminde mükemmel bir kalite ve yenilikçilikle öne çıkan uluslararası bir Türk şirketidir. Plastik ambalaj sektöründeki 20 yıllık deneyimimizle, yaratıcı çözümler sunarak dünya çapında müşterilerimizin ihtiyaçlarını karşılıyoruz.
+</p>
+<h3>Kalite ve Güvenilirlik</h3>
+<p  className="about_us_p">
+Müşterilerimize en yüksek kalitede pet şişeler sunmak, işimizin temelidir. Ürünlerimiz, uluslararası standartlara ve endüstri lideri kalite kontrollerine tabi tutulur. Müşterilerimize sadece en iyisini sunma taahhüdümüzü sürdürmek için sürekli olarak yatırım yapmaktayız.
+</p>
+<h3>Sürdürülebilirlik</h3>
+<p  className="about_us_p">
+Yavuz Plastik olarak, çevresel sorumluluğumuzun bilincindeyiz. Üretim süreçlerimizi sürekli olarak geliştiriyor ve çevresel etkileri azaltmak için sürdürülebilir malzemeleri tercih ediyoruz. Sürdürülebilirlik, gelecek nesillere daha temiz bir dünya bırakma taahhüdümüzün bir parçasıdır.
+</p>
+<h3>Müşteri Odaklılık</h3>
+<p  className="about_us_p">
+Müşterilerimiz bizim için her şeydir. İhtiyaçlarınıza uygun özelleştirilmiş çözümler sunarak, işbirliği yapmaktan ve sizi daha iyi hizmet etmek için sürekli olarak çalışmaktan mutluluk duyuyoruz. Müşteri memnuniyeti, Yavuz Plastik'in en büyük önceliğidir.
+</p>
+<h3>İnovasyon ve Gelişim</h3>
+<p  className="about_us_p">
+Teknolojinin hızla değiştiği bir çağda, Yavuz Plastik olarak her zaman önde olmayı hedefliyoruz. Araştırma ve geliştirmeye yaptığımız yatırımlarla, sektörümüzdeki yenilikleri belirlemeye ve liderlik etmeye devam ediyoruz.
+</p>
+<h3>Misyonumuz</h3>
+<p  className="about_us_p">
+Müşterilerimize en iyi kalitede pet şişe ürünleri sunarak, onların ihtiyaçlarını karşılamak ve dünya genelinde güvenilir bir iş ortağı olmak.
+</p>
+<h3>Vizyonumuz</h3>
+<p  className="about_us_p">
+Yavuz Plastik olarak, sürdürülebilirlik, kalite ve müşteri memnuniyeti konularında endüstri lideri olmayı hedefliyoruz. İnovasyon ve yaratıcılıkla geleceğin ambalaj çözümlerini şekillendirmeyi amaçlıyoruz.
+
+Bizimle çalışarak, pet şişelerinizde mükemmelliği keşfedin. Yavuz Plastik, size daha iyi bir gelecek sunmaya ve işinizi bir adım öne taşımaya hazır.
+
+İhtiyaçlarınıza uygun çözümler için bize ulaşın.
+</p>
           </p>
           <h5>Yavuz Plastik</h5>
         </div>
