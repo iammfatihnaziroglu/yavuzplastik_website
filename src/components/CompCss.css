@@ -62,7 +62,8 @@
   font-family:'Times New Roman', Times, serif ;
 }
 
-@media (max-width: 820px) {
+
+@media (max-width: 900px) {
   .hero__wrapper {
     background-size: cover;
     background-position-x: -9rem;
@@ -96,7 +97,112 @@
     padding-left: 0rem;
   }
 }
-
+@media (min-width: 901px) and (max-width: 1020px) {
+  .hero__wrapper {
+    background-size: cover;
+    background-position-x: -9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__inner__wrapper > div {
+    margin: auto;
+    height: 100%;
+    width: 96%;
+    margin: 0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .hero__inner__wrapper > div > h3 {
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+    padding-right: 0rem;
+  }
+  .hero__inner__wrapper > div > div {
+    font-size: 1.85rem;
+    letter-spacing: 0.3rem;
+    padding-left: 0rem;
+    
+  }
+  .hero__inner__wrapper > div > h5 {
+    letter-spacing: 0.3rem;
+    font-size: 2.1rem;
+    padding-left: 0rem;
+  }
+}
+@media (min-width: 1021px) and (max-width: 1200px) {
+  .hero__wrapper {
+    background-size: cover;
+    background-position-x: -9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__inner__wrapper > div {
+   margin-right: 60%;
+   margin-top: 5%;
+  }
+  .hero__inner__wrapper > div > h3 {
+    
+  }
+  .hero__inner__wrapper > div > div {
+    
+    
+  }
+  .hero__inner__wrapper > div > h5 {
+    
+  }
+}
+@media (min-width: 1201px) and (max-width: 1450px) {
+  .hero__wrapper {
+    background-size: cover;
+    background-position-x: -9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__inner__wrapper > div {
+   margin-right: 40%;
+   margin-top: 5%;
+  }
+  .hero__inner__wrapper > div > h3 {
+    
+  }
+  .hero__inner__wrapper > div > div {
+    
+    
+  }
+  .hero__inner__wrapper > div > h5 {
+    
+  }
+}
+@media (min-width: 1451px) and (max-width: 1600px) {
+  .hero__wrapper {
+    background-size: cover;
+    background-position-x: -9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__inner__wrapper > div {
+   margin-right: 27%;
+   margin-top: 5%;
+  }
+  .hero__inner__wrapper > div > h3 {
+    
+  }
+  .hero__inner__wrapper > div > div {
+    
+    
+  }
+  .hero__inner__wrapper > div > h5 {
+    
+  }
+}
 /* BIO */
 
 .bio_info_wrapper {
@@ -477,7 +583,7 @@
   display: flex;
 }
 .what_do_we_do_container > img {
-  width: 60%;
+  width: 55%;
   height: 100vh;
 }
 
@@ -487,19 +593,27 @@
 }
 
 .what_do_we_do_text_wrapper > h2 {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.5rem;
+  font-style: italic;
+  font-size: 2.35rem;
+  margin: 0;
+  font-weight: 800;
 }
 
 .what_do_we_do_text_wrapper > p {
-  letter-spacing: 0.1rem;
+  margin-top: 3rem ;
+  letter-spacing: 0.2rem;
   font-weight: 500;
+  font-size: 1.25rem;
+  font-style: italic;
+  
 }
 
 .what_do_we_do_icons_wrapper {
   display: flex;
   justify-content: space-between;
   margin: 5rem 0rem;
-  margin-top: 10rem;
+  margin-top: 3rem;
 
   padding: 3rem;
 }
@@ -509,14 +623,14 @@
 }
 
 .what_do_we_do_icons_margin_letter_spacing {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
 }
 
 /* What do we do contact icons */
 .what_do_we_do_contact_icon_container {
   display: flex;
   justify-content: space-around;
-  margin-top: 13rem;
+  margin-top: 8rem;
 }
 .what_do_we_do_contact_icon {
   font-size: 5rem;
@@ -526,13 +640,15 @@
   cursor: pointer;
   transform: scale(1.05);
   transition: all 0.3s ease;
+  opacity: 0.75;
+  
 }
 
 .what_do_we_do_contact_icon:active {
   transform: scale(1);
 }
 
-@media (max-width: 820px) {
+@media (min-width: 360px) and (max-width: 375px) {
   .what_do_we_do_container {
     flex-direction: column;
   }
@@ -547,7 +663,10 @@
   }
 
   .what_do_we_do_text_wrapper > p {
-    letter-spacing: 0.0001rem;
+    letter-spacing: 0.070rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
   }
 
   .what_do_we_do_icons_wrapper {
@@ -565,11 +684,199 @@
   .what_do_we_do_contact_icon_container {
     display: flex;
     justify-content: space-around;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
   .what_do_we_do_contact_icon {
     font-size: 3rem;
   }
+}
+@media (min-width: 376px) and (max-width: 390px) {
+  .what_do_we_do_container {
+    flex-direction: column;
+  }
+  .what_do_we_do_container > img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .what_do_we_do_text_wrapper {
+    margin: 0 1rem;
+    padding-top: 0rem;
+  }
+
+  .what_do_we_do_text_wrapper > p {
+    letter-spacing: 0.19rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .what_do_we_do_icons_wrapper {
+    margin: 0;
+    padding: 0rem 0rem;
+  }
+  .what_do_we_do_icons_margin_letter_spacing {
+    letter-spacing: 0;
+  }
+
+  .what_do_we_do_contact_icons {
+    display: flex;
+  }
+
+  .what_do_we_do_contact_icon_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0rem;
+  }
+  .what_do_we_do_contact_icon {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 391px) and (max-width: 414px) {
+  .what_do_we_do_container {
+    flex-direction: column;
+  }
+  .what_do_we_do_container > img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .what_do_we_do_text_wrapper {
+    margin: 0 1rem;
+    padding-top: 0rem;
+  }
+
+  .what_do_we_do_text_wrapper > p {
+    letter-spacing: 0.19rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 2rem;
+  }
+
+  .what_do_we_do_icons_wrapper {
+    margin: 0;
+    padding: 0rem 0rem;
+  }
+  .what_do_we_do_icons_margin_letter_spacing {
+    letter-spacing: 0;
+  }
+
+  .what_do_we_do_contact_icons {
+    display: none;
+  }
+
+  .what_do_we_do_contact_icon_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5.5rem;
+  }
+  .what_do_we_do_contact_icon {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 800px) and (max-width: 800px) {
+
+  .what_do_we_do_container > img {
+    width: 55%;
+    height: 100vh;
+}
+  .what_do_we_do_text_wrapper > h2 {
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    font-size: 2.75rem;
+    margin-top: 0rem;
+}
+  .what_do_we_do_text_wrapper > p {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.what_do_we_do_contact_icons {
+  display: none;
+}
+.what_do_we_do_contact_icon_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5.5rem;
+}
+.what_do_we_do_contact_icon {
+  font-size: 4.25rem;
+}
+}
+@media (min-width: 801px) and (max-width: 849px) {
+
+  .what_do_we_do_container > img {
+    width: 55%;
+    height: 100vh;
+}
+  .what_do_we_do_text_wrapper > h2 {
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    font-size: 2.75rem;
+    margin-top: 0rem;
+}
+  .what_do_we_do_text_wrapper > p {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.what_do_we_do_contact_icons {
+  display: none;
+}
+.what_do_we_do_contact_icon_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5.5rem;
+}
+.what_do_we_do_contact_icon {
+  font-size: 4.25rem;
+}
+}
+@media (min-width: 850px) and (max-width: 1000px) {
+  .what_do_we_do_icons_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem;
+    margin-top: 1rem;
+    padding: 0rem;
+}
+  .what_do_we_do_container > img {
+    width: 55%;
+    height: 100vh;
+}
+  .what_do_we_do_text_wrapper > h2 {
+    letter-spacing: 0.25rem;
+    font-style: italic;
+    font-size: 2.17rem;
+    font-weight: 900;
+    margin: 1rem;
+}
+  .what_do_we_do_text_wrapper > p {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+  .what_do_we_do_contact_icons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 15px; 
+   margin-top: 5.5rem;
+}
+  .what_do_we_do_icons_margin_0 {
+    margin: 0rem;
+    font-weight: 700;
+    letter-spacing: 0.13rem;
+  }
+.what_do_we_do_contact_icon_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0rem;
+}
+.what_do_we_do_contact_icon {
+  font-size: 4.2rem;
+}
 }
 
 /* MAIN CONTACT */

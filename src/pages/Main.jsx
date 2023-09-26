@@ -71,7 +71,7 @@ const Main = () => {
             <div style={{ marginTop: "2.5rem" }}>
               <Icons isAppear={true} />
             </div>
-            <h3 className="main_mobile_signature">Oruç Pen</h3>
+            <h3 className="main_mobile_signature">Yavuz PLastik</h3>
           </SwiperSlide>
         )}
         <SwiperSlide>
