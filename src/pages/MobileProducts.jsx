@@ -14,15 +14,14 @@ import img8 from "../public/images/plastic/4.jpg";
 
 import ImageViewer from "react-simple-image-viewer";
 const categories = [
-  "Konteyner",
-  "Betonarme Bina",
-  "Prefabrik Ev",
-  "PVC Kapı ve Pencere",
-  "Cam Balkon",
-  "Alüminyum Doğrama",
-  "Otomasyon Sistemleri",
-  "Panjur",
-  "Duşakabin ve Duş Teknesi",
+   "PET Su Şişesi",
+   "PP Kozmetik Şişesi",
+   "HDPE Spor Şişesi ",
+   "HDPE İlaç Şişesi Ve Çeşitleri",
+   "PET Şampuan Şişesi",
+   "PE Bebek Şişesi (Sızdırmaz Kapaklı)",
+   "PP Kapaklı Kola Şişesi",
+   "Polikarbonat (PC) İçecek Bardakları"
 ];
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img5];
 

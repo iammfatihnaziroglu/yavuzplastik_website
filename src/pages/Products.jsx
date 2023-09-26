@@ -16,7 +16,7 @@ import img7 from "../public/images/plastic/6.jpg";
 import img8 from "../public/images/plastic/4.jpg";
 
 const Products = () => {
-  const [title, setTitle] = useState("Konteyner");
+  const [title, setTitle] = useState("PET Su Şişesi");
   const isPresent = useIsPresent();
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -33,6 +33,7 @@ const Products = () => {
     setIsViewerOpen(false);
   };
   return (
+    
     <motion.div
       initial={{ scaleX: 0 }}
       animate={{
@@ -50,15 +51,14 @@ const Products = () => {
             }
           }}
         >
-          <li>Konteyner</li>
-          <li>Betonarme Bina</li>
-          <li>Prefabrik Ev</li>
-          <li>PVC Kapı ve Pencere</li>
-          <li>Cam Balkon</li>
-          <li>Alüminyum Doğrama</li>
-          <li>Otomasyon Sistemleri</li>
-          <li>Panjur</li>
-          <li>Duşakabin ve Duş Teknesi</li>
+          <li>PET Su Şişesi</li>
+          <li>PP Kozmetik Şişesi</li>
+          <li>HDPE Spor Şişesi </li>
+          <li>HDPE İlaç Şişesi Ve Çeşitleri</li>
+          <li>PET Şampuan Şişesi</li>
+          <li>PE Bebek Şişesi (Sızdırmaz Kapaklı)</li>
+          <li>PP Kapaklı Kola Şişesi</li>
+          <li>Polikarbonat (PC) İçecek Bardakları</li>
         </ul>
         <div>
           <h5 className="products_title">{title}</h5>
@@ -96,6 +96,7 @@ const Products = () => {
         Tüm Hakları Saklıdır.
       </h5>
     </motion.div>
+    
   );
 };
 

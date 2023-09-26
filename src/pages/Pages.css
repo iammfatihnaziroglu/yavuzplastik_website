@@ -249,6 +249,7 @@
 }
 
 /* PRODUCTS */
+
 .product_container {
   margin: 11rem 3rem; 
 }
@@ -343,15 +344,15 @@
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.25rem; 
-  border-radius: 0.3rem;
-  border: 1px solid #24caa017; /* Kenarlık ekleyin */
+  border-radius: 1rem;
+  border: 2px solid #24caa017; /* Kenarlık ekleyin */
   background-color: #24caa017; /* Arka plan rengi beyaz olsun */
-  transition: border-color 0.2s ease-in-out; /* Kenarlık renginde yumuşak bir geçiş ekleyin */
+  transition: border-color 0.5s ease-in-out; /* Kenarlık renginde yumuşak bir geçiş ekleyin */
 }
 .mobile_products_container > select > option {
   transition: all 4s ease;
-  background-color: black;
-  color: white;
+  background-color: #03110e17 ;
+  color: rgb(0, 0, 0);
 }
 
 .mobile_products_container > select:active {
