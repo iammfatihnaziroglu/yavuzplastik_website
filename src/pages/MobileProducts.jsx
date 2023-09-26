@@ -3,14 +3,14 @@ import React, { useCallback, useState } from "react";
 import { AiOutlineCopyright } from "react-icons/ai";
 import { Fade } from "react-reveal";
 
-import img1 from "../public/images/bg-1.jpg";
-import img2 from "../public/images/bg-2.jpg";
-import img3 from "../public/images/bg-3.jpg";
-import img4 from "../public/images/bg-4.jpg";
-import img5 from "../public/images/bg-5.jpg";
-import img6 from "../public/images/bg-6.jpg";
-import img7 from "../public/images/bg-7.jpg";
-import img8 from "../public/images/bg-8.jpg";
+import img1 from "../public/images/plastic/1.jpg";
+import img2 from "../public/images/plastic/2.jpg";
+import img3 from "../public/images/plastic/3.jpg";
+import img4 from "../public/images/plastic/4.jpg";
+import img5 from "../public/images/plastic/5.jpg";
+import img6 from "../public/images/plastic/2.jpg";
+import img7 from "../public/images/plastic/6.jpg";
+import img8 from "../public/images/plastic/4.jpg";
 
 import ImageViewer from "react-simple-image-viewer";
 const categories = [
@@ -24,7 +24,7 @@ const categories = [
   "Panjur",
   "Duşakabin ve Duş Teknesi",
 ];
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img1];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img5];
 
 const MobileProducts = () => {
   const [currentImage, setCurrentImage] = useState(0);
