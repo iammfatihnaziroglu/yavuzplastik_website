@@ -42,8 +42,7 @@ const Contact = () => {
           frameborder="0"
           marginheight="0"
           marginwidth="0"
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        >
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3153.765877025749!2d30.56178617646727!3d37.772087512313746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDQ2JzE5LjUiTiAzMMKwMzMnNTEuNyJF!5e0!3m2!1str!2str!4v1696084891713!5m2!1str!2str">
           <a href="https://www.maps.ie/distance-area-calculator.html">
             area maps
           </a>

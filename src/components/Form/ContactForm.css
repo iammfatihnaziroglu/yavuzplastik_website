@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
+  overflow-x: hidden; ;
 }
 
 .contact_form > h3 {
@@ -63,8 +64,16 @@ textarea::placeholder {
 .contact_form > button:active {
   transform: scale(1);
 }
+.contact_iframe{
+  margin-left: 10rem;
+  border-radius: 10%;
+  opacity: 0.87;
+  margin-top: 4rem ;
+  width: 75%;
+  height: 75%;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .main_contact_form {
     margin-top: 2rem !important;
     padding: 0rem 1rem !important;
@@ -79,5 +88,13 @@ textarea::placeholder {
   .main_contact_form > input,
   textarea {
     width: 80%;
+  }
+  .contact_iframe{
+    margin-left: 6.5%;
+    border-radius: 10%;
+    opacity: 0.87;
+    margin-bottom: 3rem ;
+    width: 90%;
+    height: 50%;
   }
 }

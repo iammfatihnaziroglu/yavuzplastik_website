@@ -76,14 +76,15 @@
 
 /* CONTACT */
 .contact_wrapper {
+  width: 100%;
   height: 100vh;
   background-image: url("../public/images/contact-bg.jpg");
   background-size: cover;
+  overflow-y: hidden;
 }
 
 .contact_wrapper > div {
   display: flex;
-
   padding-top: 140px;
   background-color: rgba(0, 0, 0, 0.7);
   height: calc(100% - 140px);
@@ -179,6 +180,8 @@
   width: 100%;
   background-image: url("../public/images/about-bg.jpg");
   background-size: cover;
+  background-position: 18%;
+  background-attachment: fixed
 }
 
 .about_container > div {
@@ -188,12 +191,14 @@
   justify-content: space-between;
   align-items: flex-end;
   height: calc(100% - 136.19px);
-  margin: 0 15rem 0 45rem;
+  margin: 0 15rem 0 35rem;
 }
 .about_container > div > div {
   display: flex;
   flex-direction: column;
   margin-right: 5rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px #a8c3dd63;;
 }
 .about_container > div > h5 {
   display: flex;
@@ -218,23 +223,35 @@
   letter-spacing: 0.5rem;
   margin: 0rem;
   padding-top: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Soundfest", sans-serif !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .about_container {
-    background-position-x: -3rem;
+    background-position-x: -17rem;
+    filter:opacity(94%) blur(0.0rem);
+    height: 100%;
+    width: 100%;
+    background-image: url("../public/images/about-bg.jpg");
+    background-size: cover;
+    background-position: 18%;
+    background-attachment: fixed;
   }
   .about_container > div {
     margin: 0;
     padding-top: 90px;
     padding-right: 0rem;
   }
+  .about_container > div > div {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #a8c3dd63;
+  }
   
   .about_container > div > h5 {
     font-size: 1rem;
     text-align: center;
+    align-self: center;
   }
   .about_container > div > div > h2 {
     font-size: 1.3rem;
@@ -247,6 +264,7 @@
   .about_container > div > div > h5 {
     font-size: 1.7rem;
     margin-top: 0rem;
+    text-align:center;
   }
 }
 
@@ -385,6 +403,7 @@
 
 .about_us_p{
   font-size: 1rem;
+  
 }
 .about_us_all{
   margin-top: 0rem;

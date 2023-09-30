@@ -58,7 +58,7 @@ Bizimle çalışarak, pet şişelerinizde mükemmelliği keşfedin. Yavuz Plasti
 İhtiyaçlarınıza uygun çözümler için bize ulaşın.
 </p>
           </p>
-          <h5>Yavuz Plastik</h5>
+          <h5 className="yavuzplastik">Yavuz Plastik</h5>
         </div>
         <h5>
           Arz Teknoloji
